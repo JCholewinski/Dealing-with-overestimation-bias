@@ -838,7 +838,7 @@ def select_best_model_seed(results: pd.DataFrame, agent_name: str):
 
 
 def main():
-    episodes = 150
+    episodes = 300
     seeds = [0]
 
     agents = [
@@ -887,7 +887,7 @@ def main():
                 target_update_every=1000,
                 epsilon_decay=0.97,
                 min_epsilon=0.05,
-                eval_every=20,
+                eval_every=5,
                 eval_episodes=1,
                 mellowmax_omega=5.0,
                 action_repeat=4,

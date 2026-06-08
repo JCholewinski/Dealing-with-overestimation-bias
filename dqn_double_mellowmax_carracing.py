@@ -781,7 +781,7 @@ def select_best_model_seed(results: pd.DataFrame, agent_name: str):
 def main():
     # For quick run: 80-150 episodes.
     # For better results: 300+ episodes.
-    episodes = 300
+    episodes = 150
 
     # Quick version:
     seeds = [0]
